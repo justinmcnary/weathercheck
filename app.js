@@ -67,6 +67,11 @@ const background = () => {
       'background-image':
         'url(https://images.unsplash.com/photo-1415199899804-121c5b2c2132?dpr=1&auto=format&fit=crop&w=1199&h=794&q=80&cs=tinysrgb&crop=)'
     });
+  } else if (state.description === 'broken clouds') {
+    $('body').css({
+      'background-image':
+        'url(https://images.unsplash.com/photo-1415199899804-121c5b2c2132?dpr=1&auto=format&fit=crop&w=1199&h=794&q=80&cs=tinysrgb&crop=)'
+    });
   }
 };
 
